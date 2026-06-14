@@ -1,4 +1,4 @@
-# Module 2: Physical & Perimeter Security (Network Segmentation & Resilience)
+# Physical & Perimeter Security (Network Segmentation & Resilience)
 
 **Mission:** Implement Layer 3 Access Control Lists (ACLs) to block malicious traffic, architect a segmented "Guest" network using 802.1Q VLANs, and perform an Out-of-Band (OOB) disaster recovery operation to restore access to a locked-down firewall.
 

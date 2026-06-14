@@ -1,8 +1,38 @@
-# Lab 1, 2 & 3: Sensor Deployment, Log Forwarding & Detection Engineering
+
+# Full SOC & Network Architecture Lab
+
+**Details** This folder contains 2 Modules of 6 labs of SOC & Network Architecture
+
+A complete end-to-end project simulating a real-world enterprise network setup, from physical cabling to advanced threat detection.
+
+###  [Sensor & Detection Engineering](./soc-network-secops/detection infra .md)
+* **Focus:** Monitoring, SIEM Logs, and Catching Hackers (Red Team).
+* **Lab 1: Sensor Deployment:** Virtualizing Zeek/Suricata on VMware with physical port mirroring (SPAN).
+* **Lab 2: Log Forwarding Pipeline:** Normalizing and shipping raw logs to a central dashboard.
+* **Lab 3: Adversary Simulation (Red Team):** Executing live attacks (SQLi, DNS Tunneling, Malware Beacons) to validate SIEM alerts.
+
+###  [FW Security & Segmentation](./soc-network-secops/firewall infra&sec .md)
+
+* **Focus:** Firewall Rules, VLANs, and Disaster Recovery.
+* **Lab 4: Perimeter Control:** Configuring FortiGate Firewall Policies and Address Objects (ACLs).
+* **Lab 5: Network Segmentation:** Architecting 802.1Q VLANs to isolate Guest traffic from the Internal LAN.
+* **Lab 6: Disaster Recovery:** Performing Out-of-Band (OOB) Management via a DMZ interface to recover a locked-down appliance.
+
+---
+
+**Tools Used:** FortiGate 60F, VMware, Zeek, Suricata, Linux, TP-Link Switch.
+
+
+
+
+
+# Lab 1, 2 : Sensor Deployment, Log Forwarding & Detection Engineering
 
 **Mission:** Architect a full-stack security monitoring environment, deploy a Network Sensor (Zeek/Suricata) to ingest traffic via Port Mirroring, and execute Red Team adversary simulations to validate the detection pipeline against real-world threat vectors.
 
 **Key Skills:** Virtualization (VMware), SPAN/Port Mirroring, Log Pipeline Configuration, Adversary Simulation (Red Teaming), Threat Hunting, Signature Validation.
+
+
 
 
 
